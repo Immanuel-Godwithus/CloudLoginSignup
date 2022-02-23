@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102672266780",
+    "project_id": "cloud-login-signup",
+    "storage_bucket": "cloud-login-signup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102672266780:android:b3e3fda6c2c5e1645611d9",
+        "android_client_info": {
+          "package_name": "com.example.mycloudapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102672266780-b42hd8m4rdqdnvhp8ckg1ph6g3lltkfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRClTPMSVYzaw2hCOCqIEoO3zLTS2Secg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102672266780-b42hd8m4rdqdnvhp8ckg1ph6g3lltkfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

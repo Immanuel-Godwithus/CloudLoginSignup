@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/titleLabelTv"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SignUp"
+        android:textAlignment="center" />
+
+    <!--<TextView
+        android:id="@+id/descriptionLabelTv"
+        android:layout_width="match_parent"
+        android:layout_below="@id/titleLabelTv"
+        android:layout_height="wrap_content"
+        android:text="Create new account"
+        android:textAlignment="center"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        /> -->
+
+
+    <!-- Email -->
+
+    <TextView
+        android:id="@+id/descriptionLabelTv"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailTil"
+        android:layout_marginBottom="199dp"
+        android:text="Hello"
+        android:textAlignment="center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTil"
+        android:layout_width="match_parent"
+        android:layout_above="@id/passwordTil"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTil"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        app:passwordToggleEnabled="true"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Login button -->
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordTil"
+        android:text="SignUp"/>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Cloud Application</string>
+    <string name="already_hava_account_signup">Already Have account? <b>Sign Up</b></string>
+</resources>
